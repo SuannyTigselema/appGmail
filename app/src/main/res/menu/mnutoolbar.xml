@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:title="Buscar en el correo electrónico">
+
+
+    <!--<item android:id="@+id/mnuBuscar"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="never"
+        app:titleTextColor="@color/colorTexto3"
+        android:title="Buscar en el correo electrónico"></item>-->
+
+    <item android:id="@+id/mnUser"
+        android:title="Icon"
+        app:showAsAction="always"
+        android:icon="@drawable/user"></item>
+
+
+
+</menu>

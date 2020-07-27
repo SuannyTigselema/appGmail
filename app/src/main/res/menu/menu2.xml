@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnu_principal"
+            android:icon="@drawable/principal"
+            android:title="Principal"/>
+        <item
+            android:id="@+id/mnu_social"
+            android:icon="@drawable/social"
+            android:title="Social"/>
+        <item
+            android:id="@+id/mnu_promociones"
+            android:icon="@drawable/promo"
+            android:title="Promociones"/>
+        <item
+            android:id="@+id/mnu_notificaciones"
+            android:icon="@drawable/notificaciones"
+            android:title="Notificaciones"/>
+        <item
+            android:id="@+id/mnu_foros"
+            android:icon="@drawable/foros"
+            android:title="Foros"/>
+    </group>
+    <item
+        android:id="@+id/nav_etiq_rec"
+        android:title="ETIQUETAS RECIENTES">
+        <menu>
+            <item
+                android:id="@+id/mnu_coord"
+                android:icon="@drawable/coordinacion"
+                android:title="COORDINACIÓN CARRERA"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_tod_etiq"
+        android:title="TODAS ETIQUETAS">
+        <menu>
+            <item
+                android:id="@+id/mnu_coordTod"
+                android:icon="@drawable/destacados"
+                android:title="Destacados"/>
+            <item
+                android:id="@+id/mnu_posp"
+                android:icon="@drawable/pospuestos"
+                android:title="Pospuestos"/>
+            <item
+                android:id="@+id/mnu_import"
+                android:icon="@drawable/importantes2"
+                android:title="Importantes"/>
+            <item
+                android:id="@+id/mnu_envi"
+                android:icon="@drawable/enviados"
+                android:title="Enviados"/>
+            <item
+                android:id="@+id/manu_prog"
+                android:icon="@drawable/programados"
+                android:title="Programados"/>
+            <item
+                android:id="@+id/mnu_bsal"
+                android:icon="@drawable/salida"
+                android:title="Bandeja de salida"/>
+            <item
+                android:id="@+id/mnu_borr"
+                android:icon="@drawable/borradores"
+                android:title="Borradores"/>
+        </menu>
+    </item>
+</menu>
